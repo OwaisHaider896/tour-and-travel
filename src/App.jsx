@@ -5,16 +5,17 @@ import { Container } from "@mui/material";
 import NavBar from "./NavBar";
 import Hero from "./Hero";
 import Banner from "./Banner";
-
+import Guide from "./Guide";
 
 function App() {
   return (
     <div className="App">
-        <Container>
-         <NavBar />
-         <Hero />
-         <Banner />
-        </Container>
+      <Container>
+        <NavBar />
+        <Hero />
+        <Banner />
+        <Guide />
+      </Container>
     </div>
   );
 }
