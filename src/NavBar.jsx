@@ -30,6 +30,11 @@ const NavBar = ({ title }) => {
             color: "#FB8F1D",
             marginRight:2,
             borderColor: "#FB8F1D",
+            '&:hover': {
+              backgroundColor: 'white',
+              borderColor: '#FB8F1D',
+              color: "FB8F1D"  
+            },
           }}
           variant="outlined"
         >

@@ -6,6 +6,9 @@ import NavBar from "./NavBar";
 import Hero from "./Hero";
 import Banner from "./Banner";
 import Guide from "./Guide";
+import Testimonial from "./Testimonial";
+import Trending from "./Trending";
+import Feature from "./Feature";
 
 function App() {
   return (
@@ -14,7 +17,10 @@ function App() {
         <NavBar />
         <Hero />
         <Banner />
+        <Feature />
         <Guide />
+        <Testimonial /> 
+        <Trending />
       </Container>
     </div>
   );

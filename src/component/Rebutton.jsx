@@ -10,7 +10,10 @@ const Rebutton = ({ title }) => {
           color: "white",
           textTransform: "none",
           width: 132,
-          
+          '&:hover': {
+            backgroundColor: '#FB8F1D',
+            color: "white"  
+          },
           
         }}
         contained
