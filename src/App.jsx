@@ -9,6 +9,7 @@ import Guide from "./Guide";
 import Testimonial from "./Testimonial";
 import Trending from "./Trending";
 import Feature from "./Feature";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Guide />
         <Testimonial /> 
         <Trending />
+        <Footer />
       </Container>
     </div>
   );
